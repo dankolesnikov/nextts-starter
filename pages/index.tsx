@@ -9,6 +9,10 @@ export default function Home() {
             <Link href="/api/hello">
                 Hello Earth API
             </Link>
+            <br />
+            <Link href="/api/countries/all">
+                Countries API Prisma
+            </Link>
         </Layout>
     )
 }
